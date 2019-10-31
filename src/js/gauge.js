@@ -8,7 +8,8 @@
 		"magnesium": 60,
 		"chlorid": 240,
 		"nitrat": 60,
-		"sulfat": 240
+		"sulfat": 240,
+		"fluorid": 5
 	};
 
 	var nutrientLegalLimits = {
@@ -18,7 +19,8 @@
 		"magnesium": '-',
 		"chlorid": '250 mg/l',
 		"nitrat": '50 mg/l',
-		"sulfat": '250 mg/l'
+		"sulfat": '250 mg/l',
+		"fluorid": '1,5 mg/l'
 	};
 
 	var GaugeGlass = function(svg) {

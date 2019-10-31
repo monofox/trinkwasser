@@ -6,7 +6,7 @@ var tw = {
 	'use strict';
 
 	var zoneData = {}, zoneId = '', attribute = null, hasSelectedFirstLocation = false, section = 'explanation';
-	var attributes = ["natrium", "kalium", "calcium", "magnesium", "chlorid", "nitrat", "sulfat"];
+	var attributes = ["natrium", "kalium", "calcium", "magnesium", "chlorid", "nitrat", "sulfat", "fluorid"];
 
 	var generateZoneId = function(city, district, streetZone) {
 		var idParts = [];

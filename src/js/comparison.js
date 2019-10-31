@@ -9,7 +9,8 @@
 		"magnesium": 120,
 		"chlorid": 240,
 		"nitrat": 60,
-		"sulfat": 1600
+		"sulfat": 1600,
+		"fluorid": 10
 	};
 
 	var Bottle = function(svg) {

@@ -118,7 +118,7 @@ var tw = {
 		var city = $('#city').val();
 		var districts = city ? Object.keys(tw.data.locations[city]) : [];
 
-		if (districts.length < 2) {
+		if (districts.length < 1) {
 			$('.select-district').hide();
 			$('.district').html('');
 		} else {
